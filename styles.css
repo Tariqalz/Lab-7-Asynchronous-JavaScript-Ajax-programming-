@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e2e2e2;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  font-size: 20px;
+  margin: 10px;
+  border: 2px solid #4b4b4b;
+  border-radius: 5px;
+}
+
+#buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: 10px;
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6d6d6d;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 80%;
+  justify-content: center;
+}
+
+#results img {
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px black;
+}
